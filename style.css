@@ -1,0 +1,64 @@
+body{
+  font-family: 'Tilt Neon', cursive;
+}
+
+.bg-image {
+  background-image: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.3)), url(https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+  min-height: 65vh;
+}
+label {
+  padding-left: .5em;
+}
+.larger {
+  width: 25px;
+  height: 25px;
+}
+.bg-btn {
+  background-color: rgba(243, 247, 5, 0.074);
+}
+.line {
+  border-left: 5px solid #ffc107;
+}
+.m-t {
+  margin-top: 7em;
+}
+.white-card {
+  position: absolute;
+  top: 32px;
+  right: 75px;
+}
+hr {
+  width: 40px;
+  margin: auto;
+  border: 4px solid #ffbf00 ;
+}
+.last-part {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+@media ((max-width:768px)) {
+  .hidden-el {
+    display: none;
+  }
+  .white-card {
+    position: static;
+  }
+  .order-md-1 {
+      order: 2;
+    }
+  .order-md-2 {
+      order: 1;
+    }
+  .order-md-3 {
+      order: 3;
+    }
+  .text-smaller {
+    font-size: 1em;
+  }
+}
